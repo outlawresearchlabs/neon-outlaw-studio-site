@@ -1,0 +1,10 @@
+{
+  "name": "neon-outlaw-studio-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler pages dev .",
+    "deploy": "wrangler pages deploy . --project-name neon-outlaw-studio"
+  },
+  "devDependencies": { "wrangler": "^4.95.0" }
+}
