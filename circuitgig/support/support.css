@@ -4,6 +4,8 @@
 .support-hero h1 { font-size:clamp(5rem,11vw,10rem); }
 .support-hero .lede { max-width:710px; }
 .support-status { display:inline-block; max-width:710px; margin:32px 0 0; padding:14px 18px; border-left:3px solid var(--pink); background:rgba(8,8,13,.82); color:#e0ecee; font:500 .76rem/1.55 var(--mono); }
+.support-status-ready { border-left-color:var(--cyan); }
+.support-status a { color:var(--cyan); text-decoration:underline; text-underline-offset:4px; }
 .support-section { display:grid; grid-template-columns:.85fr 1.15fr; gap:clamp(45px,8vw,135px); padding:clamp(76px,9vw,130px) clamp(24px,6vw,96px); border-bottom:1px solid var(--line); }
 .support-section h2 { font-size:clamp(3.6rem,6.5vw,7rem); }
 .support-copy { max-width:650px; align-self:end; color:#b8c9ce; font-size:1rem; line-height:1.78; }
